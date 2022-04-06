@@ -78,10 +78,14 @@ function writeToFile(fileName, data) {
 
 // Function to initialize the app
 function init() { 
+
+   // Prompt user to answer user input questions
    inquirer.prompt(questions)
    .then((response) => {
       console.log('Your responses:')
       console.log(response);
+
+      // Generate markdown file based on user responses
       data = generateMarkdown(response);
       writeToFile('sampleREADME.md', data);
    });

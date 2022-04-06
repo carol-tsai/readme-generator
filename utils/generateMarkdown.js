@@ -1001,7 +1001,7 @@ Public License instead of this License.But first, please read
   ${data.tests}
 
   ## Questions
-  For questions, please reach out to ${data.email} or ${data.github}
+  Got questions? You can reach me at ${data.email} or [my github profile]("https://github.com/${data.github}").
 `;
   }
 
