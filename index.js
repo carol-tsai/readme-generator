@@ -34,12 +34,12 @@ const questions = [
    },
    {
       type: 'input',
-      message: 'What command should be run to install dependencies?',
+      message: 'Enter command for installing dependencies:',
       name: 'installation',
    },
    {
       type: 'input',
-      message: 'Enter Usage instructions:',
+      message: 'Enter instructions for using this application:',
       name: 'usage',
    },
    {
@@ -49,7 +49,7 @@ const questions = [
    },
    {
       type: 'input',
-      message: 'What command should be run for running tests?',
+      message: 'Enter command for running tests:',
       name: 'tests',
    },
    {

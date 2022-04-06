@@ -988,12 +988,12 @@ Public License instead of this License.But first, please read
   - [Questions](#questions)
 
   ## Installation
-  To install dependences for this application, run the following command in terminal
+  To install dependences for this application, run the following command in terminal:
 
     ${data.installation}
 
   ## Usage
-  To use this app, run the following command in terminal
+  To use this app, run the following command in terminal:
 
     ${data.usage}
 
@@ -1004,10 +1004,12 @@ Public License instead of this License.But first, please read
   ${data.contributing}
 
   ## Tests
-  ${data.tests}
+  To run tests, use this command in terminal:
+
+    ${data.tests}
 
   ## Questions
-  Got questions? You can reach me at ${data.email} or [my github profile]("https://github.com/${data.github}").
+  Got questions? You can reach me at ${data.email} or [${data.github}]("https://github.com/${data.github}").
 `;
   }
 
