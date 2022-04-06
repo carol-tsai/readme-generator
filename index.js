@@ -15,12 +15,12 @@
 // THEN I am taken to the corresponding section of the README
 // Can get ideas from this repo: https://github.com/connietran-dev/readme-generator
 
-// TODO: Include packages needed for this application
+// Install packages
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown.js');
 
-// TODO: Create an array of questions for user input
+// Questions for user input
 const questions = [
    {
       type: 'input',
@@ -70,13 +70,13 @@ const questions = [
    },
 ];
 
-// TODO: Create a function to write README file
+// Function to write the data to a filename
 function writeToFile(fileName, data) {
    fs.writeFile(fileName, data, (error, data) =>
       error ? console.error(error) : console.log("Successfully generated " + fileName + "! Output file is in the root folder."));
  }
 
-// TODO: Create a function to initialize app
+// Function to initialize the app
 function init() { 
    inquirer.prompt(questions)
    .then((response) => {
