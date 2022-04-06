@@ -988,10 +988,14 @@ Public License instead of this License.But first, please read
   - [Questions](#questions)
 
   ## Installation
-  ${data.installation}
+  To install dependences for this application, run the following command in terminal
+
+    ${data.installation}
 
   ## Usage
-  ${data.usage}
+  To use this app, run the following command in terminal
+
+    ${data.usage}
 
   ## License
   ${renderLicenseSection(data.license)}
