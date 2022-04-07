@@ -993,9 +993,7 @@ Public License instead of this License.But first, please read
     ${data.installation}
 
   ## Usage
-  To use this app, run the following command in terminal:
-
-    ${data.usage}
+  ${data.usage}
 
   ## License
   ${renderLicenseSection(data.license)}
@@ -1009,7 +1007,7 @@ Public License instead of this License.But first, please read
     ${data.tests}
 
   ## Questions
-  Got questions? You can reach me at ${data.email} or [${data.github}]("https://github.com/${data.github}").
+  Got questions? You can email me at ${data.email} or find me on github at [${data.github}](https://github.com/${data.github}).
 `;
   }
 
