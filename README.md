@@ -54,4 +54,4 @@ SOFTWARE.
   Please email me if you would like to contribute to this repo.
 
   ## Questions
-  Got questions? You can reach me at caroltsai.dev@gmail.com or [carol-tsai]("https://github.com/carol-tsai").
+  Got questions? You can email me at caroltsai.dev@gmail.com or at my github: [carol-tsai](https://github.com/carol-tsai).
