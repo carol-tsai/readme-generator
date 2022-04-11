@@ -1,15 +1,17 @@
-# Readme Generator
+
+  # Readme Generator
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  This is a command line application that accepts user input and generates a high-quality, professional README file.
+  Generates a professional readme.md file using command line inputs
 
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
   - [Contributing](#contributing)
+  - [Tests](#tests)
   - [Questions](#questions)
 
   ## Installation
@@ -18,16 +20,7 @@
     npm i
 
   ## Usage
-  
-  To use this application, make a copy of this repo, run the installation, and run 'node index' in the terminal. 
-
-  You will be prompted to enter information about your project and what you would like to include in your markdown file.
-
-  ![Screenshot of running the readme generator](assets/images/usage.png)
-  
-  A file called sampleREADME.md will be generated in the root folder. You can now move/rename this file as needed.
-
-  [Walkthrough video](https://drive.google.com/file/d/1hZ6XmsCZ6EDEq3L5iqE76sjeQMthHjiM/view?usp=sharing)
+  Navigate to the root folder and run the command 'node index' in your terminal window
 
   ## License
   MIT License
@@ -53,7 +46,12 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
   ## Contributing
-  Please email me if you would like to contribute to this repo.
+  Please email me if you would like to contribute.
+
+  ## Tests
+  To run tests, use this command in terminal:
+
+    non
 
   ## Questions
-  Got questions? You can email me at caroltsai.dev@gmail.com or at my github: [carol-tsai](https://github.com/carol-tsai).
+  Got questions? You can email me at caroltsai.dev@gmail or find me on github at [carol-tsai](https://github.com/carol-tsai).
